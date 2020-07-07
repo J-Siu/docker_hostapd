@@ -1,0 +1,13 @@
+version: '3'
+services:
+  hostapd:
+    restart: unless-stopped
+    image: jsiu/hostapd
+    container_name: hostapd
+    network_mode: host
+    privileged: true
+    logging:
+      options:
+        tag: "{{.Name}}"
+    volumes:
+      - ${AP_CNF}:/hostapd.conf:ro
