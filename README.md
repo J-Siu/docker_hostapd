@@ -43,7 +43,7 @@ docker-compose up
 
 ### Repository
 
-- [docker_compose](https://github.com/J-Siu/docker_hostapd)
+- [docker_hostapd](https://github.com/J-Siu/docker_hostapd)
 
 ### Contributors
 
