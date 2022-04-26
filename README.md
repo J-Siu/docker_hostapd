@@ -57,6 +57,8 @@ docker-compose up
   - hostapd version 2.9-r2
 - 2.9-r3
   - Auto update to 2.9-r3
+- 2.9-r3-p1
+  - Add docker push github workflow
 <!--CHANGE-LOG-END-->
 
 ### License
