@@ -78,6 +78,8 @@ docker-compose up
   - Auto update to 2.10-r1
 - 2.10-r5
   - Auto update to 2.10-r5
+- 2.10-r6
+  - Auto update to 2.10-r6
 <!--CHANGE-LOG-END-->
 
 ### License
