@@ -1,8 +1,5 @@
 # Docker - hostapd [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
-### Table Of Content
-<!-- TOC -->
-
 - [Build](#build)
 - [Usage](#usage)
   - [Host Directories and Volume Mapping](#host-directories-and-volume-mapping)
@@ -10,10 +7,9 @@
   - [Compose](#compose)
 - [Repository](#repository)
 - [Contributors](#contributors)
-- [Change Log](#change-log)
 - [License](#license)
 
-<!-- /TOC -->
+<!--more-->
 
 ### Build
 
@@ -63,28 +59,6 @@ docker-compose up
 ### Contributors
 
 - [John Sing Dao Siu](https://github.com/J-Siu)
-
-### Change Log
-
-- 2.9
-  - hostapd version 2.9
-- 2.9-r2
-  - hostapd version 2.9-r2
-- 2.9-r3
-  - Auto update to 2.9-r3
-- 2.9-r3-p1
-  - Add docker push github workflow
-- 2.10-r1
-  - Auto update to 2.10-r1
-- 2.10-r5
-  - Auto update to 2.10-r5
-- 2.10-r6
-  - Auto update to 2.10-r6
-- 2.11-r0
-  - Auto update to 2.11-r0
-- 2.11-r4
-  - Auto update to 2.11-r4
-<!--CHANGE-LOG-END-->
 
 ### License
 

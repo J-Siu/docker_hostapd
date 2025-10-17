@@ -1,0 +1,18 @@
+- 2.9
+  - hostapd version 2.9
+- 2.9-r2
+  - hostapd version 2.9-r2
+- 2.9-r3
+  - Auto update to 2.9-r3
+- 2.9-r3-p1
+  - Add docker push github workflow
+- 2.10-r1
+  - Auto update to 2.10-r1
+- 2.10-r5
+  - Auto update to 2.10-r5
+- 2.10-r6
+  - Auto update to 2.10-r6
+- 2.11-r0
+  - Auto update to 2.11-r0
+- 2.11-r4
+  - Auto update to 2.11-r4
