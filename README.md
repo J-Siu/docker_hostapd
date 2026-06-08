@@ -1,4 +1,4 @@
-# Docker - hostapd [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
+# Docker - hostapd
 
 - [Build](#build)
 - [Usage](#usage)
@@ -25,7 +25,7 @@ docker build -t jsiu/hostapd .
 
 Host|Inside Container|Mapping Required|Usage
 ---|---|---|---
-${AP_CNF}||Yes|hostapd config file
+${AP_CNF}|/etc/hostapd.conf|Yes|hostapd config file
 
 #### Run
 
