@@ -18,3 +18,5 @@
   - Auto update to 2.11-r4
 - 2.12-r0
   - Auto update to 2.12-r0
+- 2.12-r1
+  - Auto update to 2.12-r1
