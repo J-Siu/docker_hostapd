@@ -1,14 +1,19 @@
 FROM alpine:edge
-ARG VERSION="2.12-r1"
-LABEL version=${VERSION}
-LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
-LABEL name="hostapd"
-LABEL usage="https://github.com/J-Siu/docker_hostapd/blob/master/README.md"
+ARG APP="hostapd"
+ARG VER="2.12-r1"
+ARG USR="https://github.com/J-Siu"
+LABEL version=${VER}
+LABEL maintainers="[John Sing Dao Siu](${USR})"
+LABEL name=${APP}
+LABEL usage="${USR}/docker_${APP}/blob/master/README.md"
 LABEL description="Docker - hostapd"
 LABEL blog="[Linux IPv6 Router How To](//johnsiu.com/blog/linux-router/)"
 
-RUN apk --no-cache add hostapd=2.12-r1
-
 COPY docker-compose.yml env /
+RUN apk --no-cache add \
+${APP}=${VER} \
+ca-certificates \
+ca-certificates-bundle \
+tzdata
 
 CMD ["hostapd","/hostapd.conf"]
